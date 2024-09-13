@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Card, CardContent, Dialog, DialogActions, DialogContent, DialogTitle, Button, Typography } from '@mui/material';
 
+
 const Home = () => {
   const [offsetY, setOffsetY] = useState(0);
   const [openModal, setOpenModal] = useState(false); // State to control modal visibility
